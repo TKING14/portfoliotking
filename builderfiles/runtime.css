@@ -15,6 +15,7 @@
 		body{color:rgb(var(--black));}
 		.bc0{background-color:rgb(var(--white));}
 		.btnprime{color: rgb(var(--black));}
+}
 
 @font-face {
 	font-family: 'League Gothic';

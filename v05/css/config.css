@@ -1,0 +1,26 @@
+@font-face {
+	font-family: 'League Gothic';
+	src: url('../../v04/font/LeagueGothic-Regular-VariableFont_wdth.ttf');
+}
+
+
+body{background-color:rgb(var(--white));color:rgb(var(--black));}
+.btnprime{color: rgb(var(--black));}
+
+body{font-family:sans-serif;margin:0;scroll-behavior: smooth;-webkit-user-select: none; user-select:none;}
+h1{font-size:6.8125rem;font-family: 'League Gothic', sans-serif;letter-spacing: 0.2rem;margin:0;}
+h2{font-size:4.1875rem;font-family: 'League Gothic', sans-serif;letter-spacing:0.2rem;margin:0;}
+p{max-width: 30rem;overflow-wrap:break-word;-webkit-user-select: text; user-select: text;margin:1rem;}
+section{display: flex; align-items: center; justify-content: center;}
+
+.op03{opacity: 0.35;}
+.op08{opacity: 0.8;}
+.op10{opacity: 1;}
+
+.simg{width:20%;height:20%;}
+
+.pfixed{position:fixed;}
+.bgi{position: absolute;z-index: -1;}
+::-webkit-scrollbar{display: none;}
+
+.btnprime{background-color:blue;border-radius: 1rem;padding:2rem;}
