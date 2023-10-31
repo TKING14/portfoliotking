@@ -1,5 +1,7 @@
 .hidden{display:none;}
 .mreset{margin:0;}
+.mar1{margin:1rem;}
+.pad1{padding:1rem;}
 .preset{padding:0;}
 .pabs{position: absolute;}
 
@@ -31,3 +33,5 @@
 .padleft{margin:0 0 0 6rem;}
 
 .rgb{background-color:red;color:green;accent-color:blue;}
+.z1{z-index:1;}
+.ulnone{list-style-type: none;}

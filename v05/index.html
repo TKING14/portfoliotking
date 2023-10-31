@@ -10,17 +10,32 @@
 		<link media="screen" rel="stylesheet" href="../builderfiles/config.css">
 		<link mdeia="screen" rel="stylesheet" href="./css/config.css">
 		<link media="screen and (prefers-color-scheme:dark)" type="text/css" rel="stylesheet" href="./css/darkmode.css">
-		<link media="screen and (max-width:30rem)" type="text/css" rel="stylesheet" href="./css/x-small.css">
+		<link media="screen and (max-width:40rem)" type="text/css" rel="stylesheet" href="./css/x-small.css">
 		<link media="screen and (min-width:50rem)" type="text/css" rel="stylesheet" href="./css/x-large.css">
 	</head>
 	<body>
+		<nav>
+			<div class="flex axm space-between h10 mar1">
+				<div class="flex">
+					<button type="button" onclick="openmenu()"><div class="nav-btn-open"></div></button>
+					<h3 class="mar1">Welcome!</h3>
+				</div>
+				<div class="quicknav">
+					<ul class="flex ulnone">
+						<li><a class="pad1" href="./example.html">link</a></li>
+						<li><a class="pad1" href="./example.html">link</a></li>
+						<li><a class="pad1" href="./example.html">link</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 		<main>
-			<section class="flex axm axs col h90">
+			<section class="flex axm axs h60">
 				<div class="flex col">
 					<h2>Yes, we are getting ready!</h2>
 				</div>
 			</section>
-			</main>
+		</main>
 		<footer class="flex axm axs">
 			<h4>&copy; THLDK 2023</h4>
 		</footer>
