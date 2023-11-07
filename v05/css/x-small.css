@@ -1,5 +1,12 @@
-h1{font-size:1.75rem;}
-h2{font-size:1.3125rem;}
-h1, h2{font-family: 'League Gothic', sans-serif;letter-spacing:0.1rem;margin:0;}
+h1, h2, h3, p {margin:0; width:100%;max-width:30rem;overflow-wrap:break-word;}
 
-.quicknav{display:none;}
+h1{font-size:1.125rem;margin-top:1em; text-align:center;}
+h2{font-size:1.000em;margin-bottom:1em;}
+h3{font-size:0.889rem;}
+p{font-size:0.889rem;margin:1em 0 2em 0;}
+nav, section{padding:2rem;}
+nav{display:flex;position:fixed;top:0;right:0;left:0;justify-content: space-between;}
+body{box-sizing: border-box;height:200vh;}
+
+.icon{background-image:url("../assets/magnifying-glass-solid.svg");width: 1em;height: 1em;background-repeat:no-repeat;background-size: contain;}
+/*h1, h2{font-family: 'League Gothic', sans-serif;letter-spacing:0.1rem;margin:0;}*/

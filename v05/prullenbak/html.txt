@@ -1,0 +1,22 @@
+
+			<div class="flex axm space-between h10 mar1">
+				<div class="flex">
+					<button type="button" onclick="openmenu()"><img alt="menu" src="#" class="nav-btn-open"></button>
+					<h3 class="mar1">Welcome!</h3>
+				</div>
+				<div class="quicknav">
+					<ul class="flex ulnone">
+						<li><a class="pad1" href="./example.html">link</a></li>
+						<li><a class="pad1" href="./example.html">link</a></li>
+						<li><a class="pad1" href="./example.html">link</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<main>
+			<section class="flex axm axs h60">
+				<div class="flex col">
+					<h2>Yes, we are getting ready!</h2>
+				</div>
+			</section>
+		</main>
