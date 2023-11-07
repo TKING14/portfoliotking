@@ -6,4 +6,6 @@
 }
 
 body{color:rgb(var(--white));background-color:rgb(var(--black));}
+
+.icon{background-image:url("../assets/darkmode/magnifying-glass-solid_dark.svg");}
 .btnprime{color: rgb(var(--white));}

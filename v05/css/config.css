@@ -19,7 +19,7 @@ h1{font-size:1.728rem;margin-top:1em; text-align:center;}
 h2{font-size:1.200em;margin-bottom:1em;}
 h3{font-size:1rem;}
 p{font-size:1rem;margin:1em 0 2em 0;}
-nav, section{padding:2rem;}
+nav, section, footer{padding:2rem;}
 nav{display:flex;position:fixed;top:0;right:0;left:0;justify-content: space-between;}
 body{box-sizing: border-box;}
 
