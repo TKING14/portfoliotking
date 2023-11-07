@@ -1,8 +1,9 @@
 /*Append different font sizes*/
-body{font-size:2rem;}
+body{font-size:1.125rem;}
+h1, h2, h3, p {width:100%;max-width:33.75rem;}
 
-h1{font-size:6.8125rem;}
-h2{font-size:4.1875rem;}
-h1, h2 {font-family: 'League Gothic', sans-serif;letter-spacing:0.2rem;margin:0;}
 
-.quicknav{display:none;}
+h1{font-size:2.369em;}
+h2{font-size:1.333em;}
+h3{font-size:1.000em;}
+p{font-size:1.000em;}
