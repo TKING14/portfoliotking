@@ -11,15 +11,13 @@
 		.btnprime{color: rgb(var(--white));}
 	}
 
-@media (prefers-color-scheme:light){
-		body{color:rgb(var(--black));}
-		.bc0{background-color:rgb(var(--white));}
-		.btnprime{color: rgb(var(--black));}
-}
+body{color:rgb(var(--black));}
+.bc0{background-color:rgb(var(--white));}
+.btnprime{color: rgb(var(--black));}
 
 @font-face {
 	font-family: 'League Gothic';
-	src: url('./font/LeagueGothic-Regular-VariableFont_wdth.ttf');
+	src: url('../v04/font/LeagueGothic-Regular-VariableFont_wdth.ttf');
 }
 
 body{font-family:sans-serif;padding-bottom: 10vh;scroll-behavior: smooth;}

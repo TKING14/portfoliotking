@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
@@ -7,7 +7,7 @@
 		<meta name="description" content="Lets shape the digital landscape anad make people happy!"/> <!-- What is the website about? -->
 		<meta name="keywords" content="Website developer, Freelance, Fullstack, HTML5, CSS3, JS, Modern, Fresh, Competative, Sportive, Sustainable, Partnership, esport"/> <!-- What are keywords to the subject? -->
 		<meta name="apple-mobile-web-app-title" content="THLDK">
-		<title>THLDK | Web Development Studio</title>
+		<title>Nieuwscentrum</title>
 		<link media="screen" type="image/svg+xml" rel="apple-touch-icon" href="../../v04/icon_black.svg">
 		<link media="screen" type="image/svg+xml" rel="icon" href="../../v04/icon_black.svg">
 		<link media="screen" type="text/css" rel="stylesheet" href="../../builderfiles/config.css">
@@ -19,9 +19,36 @@
 		<link media="screen and (min-width:120rem)" type="text/css" rel="stylesheet" href="../css/x-large.css">
 	</head>
 	<body>
-		<section class="h90 flex col">
-			<h1>Welcome to the void :&rbrack;</h1>
-			<a href="../index.html">return to home</a>
-		</section>
+		<nav>
+			<div class="nav-left">
+				<a href="./index.html">Thldk</a>
+			</div>
+			<div class="nav-right flex axm axs"><input class="hidden" type="search" name="inputField" id="inputField" placeholder="search"><button type="button" id="btn-search" onclick="show('inputField', 'btn-search')"><div class="icon i-search"></div></button></div>
+		</nav>
+		<main>
+			<section class="h30 banner">
+				<h1>Recente activiteiten.</h1>
+			</section>
+			<section class="flex col">
+				<h2>Nieuwscentrum.</h2>
+
+				<h3>9 november 2023.</h3>
+				<ul>
+					<li>Nieuwscentrum toegevoegd.</li>
+					<li>Vormgeving<a href="#banner"><b> &num;banner </b></a>aangepast.</li>
+				</ul>
+
+				<h3>8 november 2023.</h3>
+				<p>Suspendisse commodo, augue vel convallis blandit, eros urna aliquam quam, nec consectetur purus erat nec ligula. Aliquam fusce.</p>
+
+				<h3>7 november 2023.</h3>
+				<p>Praesent sed lacus dui. Donec gravida finibus tortor, id gravida elit dapibus id. Ut turpis ex, iaculis vel hendrerit molestie.</p>
+			</section>
+		</main>
+		<footer class="flex">
+				<a href="#">Copyright &copy; Thldk 2023</a>
+				<a href="#">privacy verklaring</a>
+		</footer>
 	</body>
+	<script defer src="../javascript/show.js"></script>
 </html>

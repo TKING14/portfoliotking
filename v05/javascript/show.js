@@ -8,7 +8,6 @@ function show(targetID, originID){
 	target = d.getElementById(targetID);
 	origin = d.getElementById(originID);
 	target.style.display = 'unset';
-
 	origin.setAttribute("onclick", "hide('" + targetID + "', '" + originID + "')");
 }
 
@@ -17,7 +16,5 @@ function hide(targetID, originID){
 	origin = d.getElementById(originID);
 	target.style.display = '';
 	console.log('hidden');
-
 	origin.setAttribute('onclick', "show('" + targetID + "', '" + originID + "')");
-	console.log('onclick -> show');
 }
