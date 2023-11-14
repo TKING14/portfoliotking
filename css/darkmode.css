@@ -1,0 +1,11 @@
+:root{
+	--black:0, 0, 0;
+	--white:255, 255, 255;
+	--white-dark:245, 245, 245;
+	--black-light:20, 20, 20;
+}
+
+body{color:rgb(var(--white));background-color:rgb(var(--black));}
+
+.icon{background-image:url("/assets/icons/magnifying-glass-solid-white.svg");}
+.btnprime{color: rgb(var(--white));}
