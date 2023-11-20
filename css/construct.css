@@ -1,0 +1,5 @@
+.btnprime{color: rgb(var(--black));}
+.icon{background-image:url("/assets/icons/magnifying-glass-solid-white.svg");width: 1em;height: 1em;background-repeat:no-repeat;background-size: contain;}
+.banner{background-color:rgb(var(--black));color:rgb(var(--white));}
+
+.nav-btn-open{background-image: url("/assets/icons/caret-down-solid.svg");background-position: center;background-size: cover;background-repeat: no-repeat;height: inherit;aspect-ratio:1;}
