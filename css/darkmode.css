@@ -1,6 +1,5 @@
-body{color:rgb(var(--white));background-color:rgb(var(--black));}
+body {background-color:rgb(var(--black));color:rgb(var(--white));}
 
 .banner {background-color:rgb(var(--black));color:rgb(var(--white));}
-.button {color:rgb(var(--black));}
-.icon-dropdown {background-image:url("/assets/icons/caret-down-solid.svg");}
+.icon-dropdown {background-image:url("/assets/icons/caret-down-solid-white.svg");}
 .icon-search {background-image:url("/assets/icons/magnifying-glass-solid-white.svg");}
