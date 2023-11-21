@@ -1,4 +1,5 @@
 body {background-color:rgb(var(--black));color:rgb(var(--white));}
+nav {background-color:inherit; color:inherit;}
 
 .banner {background-color:rgb(var(--black));color:rgb(var(--white));}
 .icon-dropdown {background-image:url("/assets/icons/caret-down-solid-white.svg");}
