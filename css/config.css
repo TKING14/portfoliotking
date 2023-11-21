@@ -20,3 +20,4 @@ nav, section, footer {padding:2rem;}
 nav {position:fixed;top:0;color:rgb(var(--white));background-color: rgb(var(--black));}
 nav, footer {display:flex;right:0;left:0;justify-content: space-between;}
 ::-webkit-scrollbar{display: none;}
+a:hover, a:active{opacity:.5;}
